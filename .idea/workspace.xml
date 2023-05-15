@@ -24,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="ayd6td0w" />
@@ -96,7 +97,7 @@
       <workItem from="1683248371338" duration="6894000" />
       <workItem from="1683529644437" duration="605000" />
       <workItem from="1683980717031" duration="8274000" />
-      <workItem from="1684034540015" duration="6035000" />
+      <workItem from="1684034540015" duration="6143000" />
     </task>
     <servers />
   </component>
