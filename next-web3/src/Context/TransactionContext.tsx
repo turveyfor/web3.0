@@ -6,7 +6,7 @@ import {ConstantAbi, ConstantAddress} from "@/Utils/Constant";
 // @ts-ignore
 export const TransactionContext = createContext();
 
-
+let ethereum;
 // 获取以太坊合约
 function getEthereumConstant() {
     if (window) {
@@ -151,9 +151,12 @@ export function ThemeProvider({children}: { children: any }) {
     }
 
     useEffect(() => {
+        ethereum = (window as any).ethereum;
         checkIfWalletIsConnected();
         checkIfTransactionExist();
     }, [])
+
+
 
     const [theme, setTheme] = useState("light");
     const [themeColor, setThemeColor] = useState("#fff");

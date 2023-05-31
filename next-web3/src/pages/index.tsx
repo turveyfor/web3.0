@@ -3,12 +3,12 @@ import {Header, Layout, Services, Transactions, Welcome} from "@/components";
 
 const inter = Inter({subsets: ['latin']})
 
-export default function Home() {
+function Home({}: any) {
     return (
         <Layout>
             <div className='gradient-bg-welcome'>
                 <Header/>
-                <Welcome />
+                <Welcome/>
                 <Services/>
             </div>
 
@@ -16,3 +16,15 @@ export default function Home() {
         </Layout>
     )
 }
+
+export async function getStaticProps() {
+    const res = await fetch('http://localhost:3000/api/hello')
+    const posts = await res.json()
+    return {
+        props: {
+            posts,
+        },
+    }
+}
+
+export default Home;

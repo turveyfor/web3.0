@@ -3,3 +3,5 @@
 /next-web3/.vscode
 /next-web3/node_modules
 
+.idea
+.idea/*

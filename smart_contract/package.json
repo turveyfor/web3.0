@@ -17,5 +17,8 @@
     "hardhat": "^2.8.0"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.3"
+  }
 }

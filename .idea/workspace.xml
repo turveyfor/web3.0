@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2777327a-95de-4e6a-baf9-db70e825080f" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_contract/contracts/demo.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_contract/contracts/openzeppelinDemo.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-web3/src/Context/TransactionContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/next-web3/src/Context/TransactionContext.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-web3/src/Utils/Constant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next-web3/src/Utils/Constant.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-web3/src/components/footer/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/next-web3/src/components/footer/footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-web3/src/pages/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/next-web3/src/pages/about.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-web3/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/next-web3/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_contract/artifacts/build-info/2258b7bd6c87593dce89860f90e3eb6e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_contract/artifacts/contracts/Transactions.sol/Transactions.dbg.json" beforeDir="false" afterPath="$PROJECT_DIR$/smart_contract/artifacts/contracts/Transactions.sol/Transactions.dbg.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_contract/artifacts/contracts/Transactions.sol/Transactions.json" beforeDir="false" afterPath="$PROJECT_DIR$/smart_contract/artifacts/contracts/Transactions.sol/Transactions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_contract/cache/solidity-files-cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/smart_contract/cache/solidity-files-cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_contract/contracts/Transactions.sol" beforeDir="false" afterPath="$PROJECT_DIR$/smart_contract/contracts/Transactions.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_contract/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/smart_contract/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_contract/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/smart_contract/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_contract/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/smart_contract/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,14 +32,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Solidity Contract" />
         <option value="TypeScript File" />
+        <option value="Solidity Contract" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/smart_contract/node_modules/hardhat/package.json" root0="SKIP_INSPECTION" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="ayd6td0w" />
@@ -33,39 +51,83 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2P5cLqnGzouTQnAfMKlLncqTMLQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/chenxi/Documents/project/web3.0",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/Users/chenxi/Documents/project/web3.0/next-web3/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/chenxi/Documents/project/web3.0&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/chenxi/Documents/project/web3.0/next-web3/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../next-overview/src/app/pages" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/next-web3" />
       <recent name="$PROJECT_DIR$/next-web3/src/Utils" />
       <recent name="$PROJECT_DIR$/smart_contract" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../next-overview/src/app/pages" />
+      <recent name="$PROJECT_DIR$/../next-overview/src/app" />
       <recent name="$PROJECT_DIR$/next-web3/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev (1)">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/../next-overview/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/../react-overview/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev (2)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/../next-overview/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev (3)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/../next-ovreview/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/next-web3/package.json" />
       <command value="run" />
@@ -79,6 +141,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.dev (1)" />
+        <item itemvalue="npm.dev (3)" />
+        <item itemvalue="npm.dev (2)" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -98,6 +164,10 @@
       <workItem from="1683529644437" duration="605000" />
       <workItem from="1683980717031" duration="8274000" />
       <workItem from="1684034540015" duration="6143000" />
+      <workItem from="1684394022691" duration="598000" />
+      <workItem from="1684399442223" duration="6590000" />
+      <workItem from="1685001813091" duration="5281000" />
+      <workItem from="1685435023745" duration="670000" />
     </task>
     <servers />
   </component>
